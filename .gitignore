@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Expo & Web builds
+.expo/
+*/.expo/
+dist/
+*/dist/
+web-build/
+*/web-build/
+
+# Environment and secrets
+.env
+.env.*
+*/.env
+*/.env.*
+
+# Database & Uploads
+*.sqlite
+*.sqlite-journal
+*/hostel.sqlite
+*/uploads/*
+!*/uploads/.gitkeep
+
+# Logs & temp
+*.log
+*/npm-debug.*
+*/yarn-debug.*
+.DS_Store
+Thumbs.db
+.git_backup
+*/.git_backup
